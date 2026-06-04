@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">stepify</string>
+    <string name="title_activity_main">stepify</string>
+    <string name="package_name">com.stepify.app</string>
+    <string name="custom_url_scheme">com.stepify.app</string>
+</resources>
