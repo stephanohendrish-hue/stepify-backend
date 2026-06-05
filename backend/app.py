@@ -5,16 +5,10 @@ import mysql.connector
 app = Flask(__name__)
 CORS(app)
 
-# DATABASE CONNECTION
+# DATABASE CONNECTION DISABLED TEMPORARILY
 
-db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="stepify"
-)
-
-cursor = db.cursor(dictionary=True)
+db = None
+cursor = None
 
 # HOME
 
