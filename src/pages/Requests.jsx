@@ -13,7 +13,7 @@ export default function Requests({ darkMode }) {
 
         const response =
           await axios.get(
-            "http://127.0.0.1:5000/requests"
+            "https://stepify-backend-lcjj.onrender.com/requests"
           );
 
         setRequests(
@@ -40,7 +40,7 @@ export default function Requests({ darkMode }) {
       try {
 
         await axios.get(
-          `http://127.0.0.1:5000/approve/${id}`
+          `https://stepify-backend-lcjj.onrender.com/approve/${id}`
         );
 
         alert("✅ Approved");
@@ -61,7 +61,7 @@ export default function Requests({ darkMode }) {
       try {
 
         await axios.get(
-          `http://127.0.0.1:5000/confirm_payment/${id}`
+          `https://stepify-backend-lcjj.onrender.com/confirm_payment/${id}`
         );
 
         alert(
@@ -84,7 +84,7 @@ export default function Requests({ darkMode }) {
       try {
 
         await axios.get(
-          `http://127.0.0.1:5000/connect_user/${id}`
+          `https://stepify-backend-lcjj.onrender.com/connect_user/${id}`
         );
 
         alert(

@@ -19,7 +19,7 @@ export default function Voucher({
       const response =
         await axios.get(
 
-          "http://127.0.0.1:5000/vouchers"
+          "https://stepify-backend-lcjj.onrender.com/vouchers"
 
         );
 
@@ -70,7 +70,7 @@ export default function Voucher({
 
       await axios.post(
 
-        "http://127.0.0.1:5000/create_voucher",
+        "https://stepify-backend-lcjj.onrender.com/create_voucher",
 
         form
 

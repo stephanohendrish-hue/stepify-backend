@@ -16,7 +16,7 @@ export default function Users({
 
       const response =
         await fetch(
-          "http://127.0.0.1:5000/connected_users"
+          "https://stepify-backend-lcjj.onrender.com/connected_users"
         );
 
       const data =

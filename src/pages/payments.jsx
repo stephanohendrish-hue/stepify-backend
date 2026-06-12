@@ -30,7 +30,7 @@ export default function Payments({
         const response =
           await axios.get(
 
-            "http://127.0.0.1:5000/payments"
+            "https://stepify-backend-lcjj.onrender.com/payments"
 
           );
 
@@ -76,7 +76,7 @@ export default function Payments({
 
         await axios.post(
 
-          "http://127.0.0.1:5000/save_payment",
+          "https://stepify-backend-lcjj.onrender.com/save_payment",
 
           form
 

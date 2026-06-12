@@ -34,7 +34,7 @@ export default function Settings({
 
       await axios.post(
 
-        "http://127.0.0.1:5000/register_owner",
+        "https://stepify-backend-lcjj.onrender.com/register_owner",
 
         {
 

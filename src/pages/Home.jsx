@@ -21,7 +21,7 @@ export default function Home({
 
       await axios.post(
 
-        "http://127.0.0.1:5000/request_access",
+        "https://stepify-backend-lcjj.onrender.com/request_access",
 
         {
 

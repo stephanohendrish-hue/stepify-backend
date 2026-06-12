@@ -16,7 +16,7 @@ export default function Ads({ darkMode }) {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:5000/ads"
+        "https://stepify-backend-lcjj.onrender.com/ads"
       );
 
       setAds(response.data);
@@ -49,7 +49,7 @@ export default function Ads({ darkMode }) {
     try {
 
       await axios.post(
-        "http://127.0.0.1:5000/create_ad",
+        "https://stepify-backend-lcjj.onrender.com/create_ad",
         form
       );
 

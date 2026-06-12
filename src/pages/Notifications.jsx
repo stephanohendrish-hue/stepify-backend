@@ -17,7 +17,7 @@ export default function Notifications({
 
         const response =
           await axios.get(
-            "http://127.0.0.1:5000/notifications"
+            "https://stepify-backend-lcjj.onrender.com/notifications"
           );
 
         setNotifications(

@@ -10,7 +10,7 @@ export default function FamilyUsers({ darkMode }) {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:5000/family_users"
+        "https://stepify-backend-lcjj.onrender.com/family_users"
       );
 
       setUsers(response.data);
