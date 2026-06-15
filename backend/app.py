@@ -20,7 +20,6 @@ cursor = db.cursor(dictionary=True)
 
 @app.route("/")
 def home():
-
     return jsonify({
         "message": "STEPify Backend Running 🚀"
     })
